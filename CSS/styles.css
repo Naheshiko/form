@@ -1,0 +1,217 @@
+body {
+    background-color: rgb(239, 239, 239);
+    box-sizing: border-box;
+  }
+  
+  
+  .nav {
+    background-color: #6e5ad1;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 1500px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    font-size: 17px;
+  }
+  
+  .horizontal > li{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .horizontal > li > a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .horizontal li a:hover {
+    color: rgb(246, 201, 201);
+    transition: all .3s;
+  }
+  
+  .vertical {
+    position: absolute;
+    background: #6e5ad1;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  
+  .vertical li a {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .horizontal li:hover .vertical {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .card {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .carContainer {
+    display: block;
+    float: right;
+  }
+
+  .card:hover {
+    border-color: blue;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+
+.stylishBox {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 10px;
+  width: 1200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.sinpunto {
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+}
+
+  #titulop {
+    text-align: center;
+  }
+
+.centro1 {
+  text-align: center;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.cuadrito {
+  text-align: center;
+}
+
+.margen {
+  margin-left: 50px;
+}
+
+.xd {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+.card1 {
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.carContainer1 {
+  display: block;
+  float: right;
+}
+
+.contenedor {
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.button {
+  margin: 5px;
+}
+
+.button1 {
+  margin: 5px;
+}
+
+.contenedor1 {
+  margin-top: 15px;
+  justify-content: left;
+}
+
+.mensaje1 {
+  font-size: 15px;
+}
+
+.stylishBox1 {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 10px;
+  width: 220px;
+  padding: 5px;
+}
+
+.caprichito {
+  text-align: center;
+  font-size: 20px;
+}
+
+.caprichito1 {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.nav1 {
+  background-color: #6e5ad1;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 1500px;
+  text-align: center;
+}
+
+.caprichito2 {
+  margin-left: 85%;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
