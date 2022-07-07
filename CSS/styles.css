@@ -219,3 +219,7 @@ body {
 .centro12 {
   text-align: center;
 }
+
+.centro11 {
+  justify-content: center;
+}
